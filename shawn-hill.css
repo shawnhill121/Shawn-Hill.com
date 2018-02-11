@@ -1,0 +1,73 @@
+body{
+   background-color:#222;
+   color: #fff;
+   font-family:"Exo";
+   position:relative;
+   background-size: 8px 8px;
+   background-image: linear-gradient(to right, rgb(255,255,255,0.07) 1px, transparent 1px), linear-gradient(to bottom, rgb(255,255,255,0.07) 1px, transparent 1px);
+}
+
+.navbar{
+   background-color:#000;
+   padding-bottom:0rem;
+}
+
+.navbar-toggler{
+   padding:0rem 0.25rem;
+}
+
+.navbar-inverse .navbar-nav .nav-link{
+   color:#fff;
+}
+
+.active{
+   background-color:#222;
+}
+.navbar-inverse .navbar-nav .nav-link:hover {
+   color:#fff;
+   background-color:#222;
+}
+
+.rounded-image{
+   height:10em;
+   width:10em;
+   border: 10px #0275D8 solid;
+   border-radius:5em;
+   margin-bottom: 1rem;
+}
+
+.left-side-content{
+   float:left;
+   margin:1rem;
+}
+.contact-button{
+   height:30px;
+   width:30px;
+   border-radius:15px;
+   background-color: #0275D8;
+   color: #222222;
+   display:inline-block;
+   padding: 0.2rem 0.4rem;
+}
+
+.contact-button a{
+   color: #222;
+}
+
+#welcome-section{
+   padding-top:3rem;
+}
+
+#contact-section{
+   margin-top:5rem;
+   margin-bottom:12rem;
+   padding-top:2rem;
+   padding-bottom:4rem;
+   background-color:#000;
+}
+#portfolio-section{
+   padding-top:3rem;
+}
+#credentials-section{
+   padding-top:3rem;
+}
